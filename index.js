@@ -7,7 +7,7 @@ const express = require('express');
 
 const app = express();
 
-const port = 1337;
+const port = 80;
 var dbPath = 'data/data.sqlite';
 
 var db = new sqlite.Database(dbPath);
